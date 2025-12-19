@@ -86,6 +86,10 @@ function App() {
                 <p className="text-slate-500">Analiza la actividad de tus diputados en tiempo real</p>
             </header>
 
+            <div className="bg-blue-50 p-4 rounded-lg border border-blue-200 mb-8 text-center">
+                <p className="text-blue-700">Puedes revisar la lista de diputados <a href="https://www.camara.cl/diputados/diputados.aspx#mostrarDiputados" target="_blank" className="underline font-semibold">aquí</a></p>
+            </div>
+
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-200 mb-8">
                 <form onSubmit={handleSubmit} className="flex gap-4">
                     <input
