@@ -12,6 +12,7 @@ import {
 import { Bar, Doughnut } from 'react-chartjs-2';
 import { Search, Loader2, FileText, CheckCircle, XCircle, Clock } from 'lucide-react';
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement);
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         setResult(null);
 
         try {
-            const response = await fetch('http://127.0.0.1:8000/api/v1/proyectos', {
+            const response = await fetch(`${API_URL}/api/v1/proyectos`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ url })
