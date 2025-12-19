@@ -1,8 +1,6 @@
 🇨🇱 Visor Legislativo - Frontend
 Este es el cliente web para el Scraper de la Cámara de Diputadas y Diputados de Chile. Es una aplicación moderna y responsiva construida con React y Vite que permite visualizar de manera gráfica y ordenada la actividad legislativa de los parlamentarios.
 
-(Te recomiendo reemplazar esta imagen con una captura real de tu proyecto)
-
 🚀 Características
 Análisis en Tiempo Real: Se conecta a la API Python para extraer datos en vivo.
 
@@ -34,55 +32,6 @@ Node.js (versión 16 o superior).
 
 NPM o Yarn.
 
-Tener el Backend corriendo (ya sea localmente o en Render).
-
-💻 Instalación y Uso Local
-Clona el repositorio:
-
-Bash
-
-git clone https://github.com/tu-usuario/visor-diputados.git
-cd visor-diputados
-Instala las dependencias:
-
-Bash
-
-npm install
-Configura las Variables de Entorno: Crea un archivo .env en la raíz del proyecto y define la URL de tu API backend.
-
-Si tu backend está local:
-
-Fragmento de código
-
-VITE_API_URL=http://127.0.0.1:8000
-Si tu backend está en Render:
-
-Fragmento de código
-
-VITE_API_URL=https://tu-backend-api.onrender.com
-Ejecuta el servidor de desarrollo:
-
-Bash
-
-npm run dev
-Abre tu navegador en http://localhost:5173.
-
-☁️ Despliegue en Vercel
-Esta aplicación está optimizada para ser desplegada en Vercel.
-
-Sube tu código a GitHub.
-
-Importa el proyecto en Vercel Dashboard.
-
-En la configuración del despliegue, ve a Environment Variables.
-
-Agrega la variable clave:
-
-Key: VITE_API_URL
-
-Value: https://tu-backend-api.onrender.com (Tu URL de Render sin la barra final).
-
-Haz clic en Deploy.
 
 📂 Estructura del Proyecto
 Plaintext
