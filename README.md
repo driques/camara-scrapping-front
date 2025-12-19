@@ -1,5 +1,6 @@
 🇨🇱 Visor Legislativo - Frontend
 Este es el cliente web para el Scraper de la Cámara de Diputadas y Diputados de Chile. Es una aplicación moderna y responsiva construida con React y Vite que permite visualizar de manera gráfica y ordenada la actividad legislativa de los parlamentarios.
+<img width="1893" height="779" alt="image" src="https://github.com/user-attachments/assets/d84dc398-a02d-482b-a4b9-6b603d65da8d" />
 
 🚀 Características
 Análisis en Tiempo Real: Se conecta a la API Python para extraer datos en vivo.
